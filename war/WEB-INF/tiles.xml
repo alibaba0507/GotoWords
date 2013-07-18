@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="index" template="index.jsp">
+    <put-attribute name="title" value="User Search Alerts" />
+    <!--  
+    <put-attribute name="header" value="/tiles/banner.jsp" />
+    <put-attribute name="menu" value="/tiles/common_menu.jsp" />
+    -->
+    <put-attribute name="top_body" value="/tiles/QueryFrom.jsp" />
+    <put-attribute name="mid_body" value="/tiles/UserQuery.jsp" />
+    <!-- 
+     <put-attribute name="footer" value="/tiles/credits.jsp" />
+     -->
+  </definition>
+</tiles-definitions>
